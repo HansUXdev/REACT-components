@@ -1,7 +1,8 @@
 import React from 'react';
-import Home from './components/home';
+
+import Datepicker from './components/datepicker';
 
 window.React = React;
 const mountNode = document.getElementById('app');
+React.render(<Datepicker />, mountNode);
 
-React.render(<Home/>, mountNode);
